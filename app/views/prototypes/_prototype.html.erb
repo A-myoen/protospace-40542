@@ -4,7 +4,7 @@
     <%= link_to prototype.title, prototype_path(prototype.id), class: :card__title%>
     <p class="card__summary">
       <%= prototype.catch_copy %>
-    </p>
+   </p>
     <a href="/users/<%= prototype.user.id %>">
     <%= link_to "by #{prototype.user.name}", root_path, class: :card__user %>
     </a>
